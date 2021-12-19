@@ -1,9 +1,9 @@
 # Retino-GraduationProject
 Graduation project for bachelor degree in the field of computer engineering at king Saud university
-By:
-Khaled Aldamkh
-Mohammed Almansour
-Adi Alageel
+By: </br>
+Khaled Aldamkh </br>
+Mohammed Almansour </br>
+Adi Alageel </br>
 
 # About the project 
 Diabetic Retinopathy (DR) is one of the highest reasons for blindness. It is hard to detect by just looking at the fundus images and there is a high chance of human error in grading the severity. In this report, we present an automatic solution based on Convolution neural networks (CNNs) for grading the severity of DR consisting of five severity stages. In the experiments, we consider the APTOS dataset, which contains 3662 fundus color images. In this phase of the project, we have designed a simple model from scratch. Also, we have designed an approach based on light-weight models called MobileNet and implement it on Android mobile device
