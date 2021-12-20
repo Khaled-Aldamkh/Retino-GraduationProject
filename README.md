@@ -19,7 +19,7 @@ Transfer learning: Usually when we want to train a CNN we need a large dataset f
 ## Implementation the model on android app
  After we finished building our model, we want to implemntet on android app, so that to be in reach hands to everyone.
  There are two away to classify DR image 
- * Taking snapshot by mobile camera
+ * Taking photos by mobile camera
  * Uploading image from mobile device
  ## Dataset
  In this project we used APTOS dataset provided by kaggle 
