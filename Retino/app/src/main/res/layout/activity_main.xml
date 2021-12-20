@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="#1F292E"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/classifytext"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/classify"
+        android:layout_below="@+id/image"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/classify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/fromGalaray"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/classify"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#1F292E"
+        android:onClick="getImg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/classify"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        app:tint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="500dp"
+        android:layout_height="380dp"
+        android:background="@color/white"
+        android:backgroundTint="#1F292E"
+        android:src="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/classifytext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/classify"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:background="#31352F"
+        android:backgroundTint="#1F292E"
+        android:text="Classify"
+        android:textColor="#E0E2EA"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/fromGalaray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/classifytext"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
