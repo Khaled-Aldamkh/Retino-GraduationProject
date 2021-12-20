@@ -1,5 +1,5 @@
 package com.example.retino;
-
+// import libraries
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
@@ -138,7 +138,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
+// using A mapped byte buffer and the file mapping that it represents remain valid until the buffer itself is garbage-collected.
     private MappedByteBuffer loadmodelfile(Activity activity) throws IOException {
         AssetFileDescriptor fileDescriptor=activity.getAssets().openFd("newmodel.tflite");
         FileInputStream inputStream=new FileInputStream(fileDescriptor.getFileDescriptor());
@@ -155,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
         return getSortedResult(result);
     }
 
-
+// For reading, need to convert
     private ByteBuffer convertBitmapToByteBuffer(Bitmap bitmap) {
         ByteBuffer byteBuffer = ByteBuffer.allocateDirect(4*imgWidth*imgHeight*3);
         byteBuffer.order(ByteOrder.nativeOrder());
