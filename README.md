@@ -7,7 +7,7 @@ Graduation project for bachelor degree in the field of computer engineering at k
 
 ### Supervisor: 
  Dr.Yakoub Bazi
-<img width="978" alt="Screen Shot 2021-12-21 at 12 47 22 PM" src="https://user-images.githubusercontent.com/83476407/146908785-caea73e9-00a0-429c-86ee-963e9e955b64.png">
+<img width="1293" alt="Screen Shot 2021-12-21 at 1 06 12 PM" src="https://user-images.githubusercontent.com/83476407/146911535-5fb683e5-cf99-4b4a-9996-cb2454198fca.png">
 
 
 # About the project 
