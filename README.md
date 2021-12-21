@@ -5,6 +5,11 @@ Khaled Aldamkh </br>
 Mohammed Almansour </br>
 Adi Alageel </br>
 
+Supervisor: 
+Dr.Yakoub Bazi
+<img width="978" alt="Screen Shot 2021-12-21 at 12 47 22 PM" src="https://user-images.githubusercontent.com/83476407/146908785-caea73e9-00a0-429c-86ee-963e9e955b64.png">
+
+
 # About the project 
 Diabetic Retinopathy (DR) is one of the highest reasons for blindness. It is hard to detect by just looking at the fundus images and there is a high chance of human error in grading the severity. In this report, we present an automatic solution based on Convolution neural networks (CNNs) for grading the severity of DR consisting of five severity stages. In the experiments, we consider the APTOS dataset, which contains 3662 fundus color images. In this phase of the project, we have designed a simple model from scratch. Also, we have designed an approach based on light-weight models called MobileNet and implement it on Android mobile device
 # Table Of Contents
