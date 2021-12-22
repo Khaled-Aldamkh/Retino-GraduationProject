@@ -7,11 +7,13 @@ Graduation project for bachelor degree in the field of computer engineering at k
 
 ### Supervisor: 
  Dr.Yakoub Bazi
-<img width="1293" alt="Screen Shot 2021-12-21 at 1 06 12 PM" src="https://user-images.githubusercontent.com/83476407/146911535-5fb683e5-cf99-4b4a-9996-cb2454198fca.png">
 
 
 # About the project 
 Diabetic Retinopathy (DR) is one of the highest reasons for blindness. It is hard to detect by just looking at the fundus images and there is a high chance of human error in grading the severity. In this report, we present an automatic solution based on Convolution neural networks (CNNs) for grading the severity of DR consisting of five severity stages. In the experiments, we consider the APTOS dataset, which contains 3662 fundus color images. In this phase of the project, we have designed a simple model from scratch. Also, we have designed an approach based on light-weight models called MobileNet and implement it on Android mobile device
+
+<img width="1293" alt="Screen Shot 2021-12-21 at 1 06 12 PM" src="https://user-images.githubusercontent.com/83476407/146911535-5fb683e5-cf99-4b4a-9996-cb2454198fca.png">
+
 # Table Of Contents
 ## Design Approaches 
 Two approaches have been conducting. The first one we have designed a CNN from scratch, and the second one was to use the concept of transfer learning in which we take an existing model, and we fine tune it to our problem
